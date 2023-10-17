@@ -1,2 +1,2 @@
 # Finding only human readable files
-find ~/inhere -type f file {} | grep ASCII
+find ~/inhere -type f file {} + | grep ASCII
