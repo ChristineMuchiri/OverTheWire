@@ -1,0 +1,3 @@
+# Opening hidden files
+ls -a
+cat .hidden
