@@ -1,2 +1,2 @@
 # Finding a file somewhere in the server with the following properties
-find / -type f -user bandit7 -group bandit6 -size 33c
+find / -type f -user bandit7 -group bandit6 -size 33c 2> /dev/null
