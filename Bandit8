@@ -1,0 +1,2 @@
+# Searching a file for a line that only occurs once
+sort data.txt | uniq-u
