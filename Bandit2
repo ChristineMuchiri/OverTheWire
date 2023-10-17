@@ -1,0 +1,2 @@
+# Opening files with spaces
+cat "spaces in this filename"
