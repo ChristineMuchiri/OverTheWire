@@ -1,0 +1,2 @@
+# Finding files with specific properties
+find ~/inhere -type f -size 1033c ! -executable file {} + | grep ASCII
