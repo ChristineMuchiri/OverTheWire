@@ -1,0 +1,2 @@
+# Accessing data in binary files
+strings data.txt | grep -oP '=+ \K[^=]+'
