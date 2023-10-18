@@ -1,0 +1,2 @@
+# Base64 encoded data
+base64 -d -i data.txt
