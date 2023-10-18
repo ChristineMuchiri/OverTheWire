@@ -1,0 +1,12 @@
+# Hexadecimal file
+# Converting a file to its binary equivalent
+xxd -r data > binary
+file binary
+# Decompressing gzip compressed data
+mv binary binary.gz
+gunzip binary.gz
+# decompressing bzip compreesed data
+bunzip2 binary
+file binary.out
+# Decompressing tar compressed data
+tar -xf binary
