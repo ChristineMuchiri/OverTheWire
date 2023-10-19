@@ -1,0 +1,2 @@
+# Coonecting to a service on a port using SSL
+openssl s_client -connect localhost:30001
