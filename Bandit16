@@ -1,0 +1,9 @@
+# Listening ports
+netstat -pnlt  || nmap -T4 -sV -p 31000-32000
+# Checking which port has uses SSL
+openssl s_clinet -connect localhost:31790
+mkdir /tmp/random_sshkey
+cd /tmp/random_sshkey
+touch rsa.key
+vim rsa.key
+ssh -i rsa.key bandit17@bandit.labs.overthewire.org -p 2220
