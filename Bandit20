@@ -1,0 +1,4 @@
+# Setting up connection to a local host ruuning in the background
+
+echo "*************" | nc -l -p 34567 &
+./suconnect 345678
