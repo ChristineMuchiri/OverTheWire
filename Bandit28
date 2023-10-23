@@ -1,0 +1,6 @@
+git clone ssh://bandit28-git@localhost/home/bandit28-git/repo
+cat README.md
+git log
+# going to previous version of repo
+git checkout commit id
+cat README.md
