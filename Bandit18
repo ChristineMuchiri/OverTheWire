@@ -1,0 +1,5 @@
+# Using a shell other than bash to login using SSH
+ssh bandit18@bandit.labs.overthewire.org -p 2220 -t "/bin/sh"
+
+ls 
+cat readme
