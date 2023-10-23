@@ -1,0 +1,4 @@
+# Setuid binary file
+ls -l bandit20-do
+./bandit20-do id
+./bandit20-do cat /etc/bandit_pass/bandit20
