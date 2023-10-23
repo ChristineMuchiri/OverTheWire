@@ -1,0 +1,4 @@
+git clone ssh://bandit30-git@localhost/home/bandit30-git/repo
+git branch -a
+git tag
+git show 
